@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form tag</title>
+        <h1 style="display: block;color: blue;">ADMISSION FORM</h1>
+         <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+         </style>
+     </head>
+    <body>
+        <form method="post">
+            <fieldset>
+                <legend style="text-align: center;"><b>Personal information</b></legend>
+                 <div style="display:inline-block;">
+                    <label for="FNAME"> STUDENT NAME:</label><span style="color: red;">*</span>
+                <input "text" name="USERNAME" id="FNAME"placeholder="firstname">
+                </div>
+                <div id="LNAME" style="display: inline-block;">
+                <input type="text" name="USERNAME" id="LNAME" placeholder="surname">
+            </div><br><br>
+            <DIV>
+                <LABEl for="DOB">DATE OF BIRTH</LABEl>
+                <inPut type="date" id="DOB" name="USERBIRTHDAY" placeholder="MM/DD/YYYY"></inPut>
+            </DIV><br>
+            <DIV>
+                <LAbel for="MYEMAIL">EMAIL:</LAbel><span style="color: red;">*</span>
+                <input type="email" name="USEREMAIL" id="MYEMAIL" placeholder="XYZ@EMAIL.COM">
+            </DIV><br>
+            <div>
+                <label for="MYNUMBER">MOBILE NO:</label>
+                <input type="text" name="USERNUMBER" ID="MYNUMBER" maxlength="10">
+            </div><br>
+            <div>
+                Gender:<input type="radio" name="USERGENDER">male <input type="radio" name="USERGENDER">female
+            </div>
+            </fieldset>
+            <div>
+            <h4>SELECT THE UNIVERSITY</h4>
+            <label for="MYUNIVERSITY">Select the university</label>
+            <select name="UNIVERSITY" class="MYUNIVERSITY">
+                <option value="KL UNIVERSITY">KLUNIVERSITY</option>
+                <option value="CSUNIVERSITY">CSUNIVERSITY</option>
+                <option value="HONORUNIVERSITY">HONORUNIVERSITY</option>
+                <option value="GDUNIVERSITY">GDUNIVERSITY</option>
+            </select>
+            <input type="submit"></div><br>
+            <div class="MYCOURSES">
+                <h4>COURSES</h4>
+                <input type="checkbox" name="USERCOURSES" value="ARTS">ARTS
+                <input type="checkbox" name="USERCOURSES" value="POLITICS">POLITICS
+                <input type="checkbox" name="USERCOURSES" value="ENVINORMENT">ENVINORMENT
+                <input type="checkbox" name="USERCOURSES" value="SCIENCES">SCIENCES
+            </div><br>
+
+            <div>
+               WRITE ABOUT YOURSELF <br><textarea name="mytext" id="MYTEXT" cols="50" rows="5"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="submit now">
+                <input type="reset" value="reset now"
+            </div>
+        </form>
+    </body>
+</html>
