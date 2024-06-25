@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginform.css">
+
+</head>
+<body>
+    <div class="login">
+        <form>
+            <h1>Account</h1>
+           
+            <div class="user">
+                <input type="text" name="username" placeholder="username or email " required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="user">
+                <input type="password" name="userpwd" id="pwdeye" placeholder="password" required>
+               <!--- <i class='bx bxs-lock-alt'></i>-->
+            </div>
+            <div class="remember">
+                <label><input type="checkbox"  id="notforget">Remember me</label>
+                <a href="#">forget password?</a>
+            </div>
+            <button type="submit" id="click"> Login</button>
+            <div class="noaccount">
+                <p>Don't have an Account?
+                <a href="#">register here</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
