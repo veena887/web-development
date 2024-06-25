@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;/*all divs in same size*/
+    font-family: poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: url(https://i.pinimg.com/originals/48/52/94/4852947359bb956583dad0a599fe5a49.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.login{
+    width: 450px;
+   /* background-color: rgba(99, 161, 219, 0.404);*/
+   background: transparent;
+   border: 3px solid rgb(255, 255, 255, .2);
+    color: white;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.login h1{
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+    
+}
+
+.user{
+    position: relative;
+    width: 90%;
+    height: 200%;
+   /* background-color: aquamarine;*/
+    margin: 20px;
+}
+.user input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 3px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    padding:10px 15px 15px 15px ;
+}
+.user ::-webkit-input-placeholder{
+    color: #fff;
+
+
+}
+.user i{
+    position: absolute;
+    right: 7PX;
+    top: 23%;
+   transition: translateY(-50%);
+    font-size: 20px;
+
+}
+#pwdeye {
+    color: #fff;
+    background: transparent;
+}::-ms-reveal{
+ filter: invert(100%);
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    font-size: smaller;
+    margin: -15px 0 10px;
+}
+#notforget{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+#click{
+    width: 100%;
+    height: 120%;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(27, 29, 28);
+    box-shadow: 0 0 10px  rgb(0, 0, 0, .1);
+    font-weight: 600;
+}
+
+.noaccount{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 25px 0 8px;
+}
+.noaccount p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600px;
+}
+.noaccount a:hover{
+     text-decoration: underline;
+}
