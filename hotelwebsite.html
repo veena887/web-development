@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5starhotel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="hotelwebsite.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo" >TAJ HOTELS</h1>
+        <ul class="nav-links">
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Dining </a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Packages</a></li>
+            <li class="ctn1"><button> BOOK A STAY</button></li>
+        </ul>
+        <!--<i class='bx bx-menu'></i>-->
+        <img src="c:\Users\user\Downloads\menu-regular-24.png" alt="" class="menubar">
+    </nav>
+   <header>
+    <div class="headercontent">
+         <h2>TOURISM</h2>
+         <div class="line"></div>
+         <h3>Relax,Recharge,Repeat</h3>
+         <a href="#"class="ctn">Learn more</a>
+    </div>
+   </header>
+   <section class="events">
+    <div class="title">
+        <h4>PLAN AN EVENT</h4>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="https://www.weddingsutra.com/images/the-taj-mahal-palace-img2.jpg" id="img1" >
+            <h5>CONFERENCE ROOM</h5>
+            <P>Most individuals prefer a business hotel with enhanced facilities when choosing a location to hold a business conference.</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div><div class="col">
+            <img src="https://i.pinimg.com/originals/7a/1c/34/7a1c346d79b67b49877fb11d7b3cd936.jpg" id="img2">
+            <h5>DINING</h5>
+            <P>serves various international and Indian cuisines. So, as you unwind and savour the heavenly treats, encounter international services </P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </div>
+   </section>
+   <section class="explore">
+    <div class="explore-content">
+        <h1>GLOBAL ICON OF INDIAN HOSPATALITY</h1>
+        <P>Enter a realm of storied halls, sophisticated delights and unrivalled indulgence. Immerse yourself in the grandeur of luxury at our exquisite palaces, hotels, resorts and safaris.</P>
+            <a href="#" class="ctn">Learn More</a>
+    </div>
+   </section>
+   <section class="room">
+    <div class="row">
+        <div class="col content-col">
+            <h1>LUXURY AND COMFORT</h1>
+            <P>Renowned as city landmarks, Taj Hotels welcome guests with an extraordinary level of service, comfort and warmth. Each of our luxury hotels sets an example of magnificence with tastefully designed spaces, spectacular views and world class amenities. </P>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="https://th.bing.com/th/id/OIP.JMoV-s6sbOk-YiQNmLoNJwHaEK?w=296&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.3YKSuSwGjYNU2EsKF6syEAEsC1?w=246&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.CNA54XGYLnNZQeKcveHRhAHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.RD48lHR9PWA9q4BZYY1eCwHaFj?w=249&h=181&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+            
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="footer">
+    <div class="connect">
+        <p>HAPPY TO<BR>CONNECT WITH<BR>YOU!</p>
+    </div>
+    <div class="icons">
+        <span>Please follow us on!</span>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram-alt' ></i>
+        <i class='bx bxl-facebook-circle'></i>
+    </div>
+   </section>
+  <script>
+    const menuBtn=document.querySelector('.menubar')
+    const navlinks=document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+   </script>
+</body>
+</html>
