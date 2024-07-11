@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.sidebarheader img{
+    width: 45px;
+    border-radius: 50%;
+}
+.userprofile img{
+    width: 40px;
+    border-radius: 50%;
+}
+body{
+    min-height: 100vh;
+    background: whitesmoke;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150%;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: rgb(33, 33, 33);
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+}
+.sidebar:hover{
+    width: 260px;
+}
+.sidebarheader{display: flex; align-items: center;}
+.sidebarheader h2{
+    font-size: x-large;
+    font-weight: 900;
+    color: yellowgreen;
+    margin-left: 20px;
+}
+
+.sidebarlinks li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 13px 20px;
+    white-space: nowrap;
+    gap: 0 20px;
+}
+.sidebarlinks{
+    list-style: none;
+    margin-top: 20px;
+    height: 52%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.sidebarlinks h4{
+    color: rgb(18, 175, 237);
+    font-weight: 500px;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+.sidebarlinks li :hover{
+    background: #ffffff2d;
+    color: #fff;
+    border-radius: 4px;
+}
+.useraccount{
+
+    padding: 20px 10px;
+    margin-left: -10px;
+}
+.userprofile{
+    display: flex;
+    align-items: center;
+color: #fff;
+}
+.userdetails{ color: rgb(133, 43, 244); margin-left: 27px; white-space: nowrap;}
+.userprofile h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.userprofile span{
+    font-size: 0.775rem;
+    font-weight: 600;
+}
